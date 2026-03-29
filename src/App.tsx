@@ -309,7 +309,7 @@ const Portfolio = () => {
             <div>
               <SectionHeading>About Me</SectionHeading>
               <p className="text-lg text-slate-300 leading-relaxed">
-                Computer Science graduate student at the University of Southern Mississippi with 4+ years of experience in AI and prompt engineering. Specialized in LLM-driven applications using OpenAI GPT, Azure OpenAI, LangChain, and RAG architectures.
+                Computer Science graduate from the University of Southern Mississippi with 4+ years of experience in AI and prompt engineering. Specialized in LLM-driven applications using OpenAI GPT, Azure OpenAI, LangChain, and RAG architectures.
               </p>
               <div className="mt-8 space-y-4">
                 {expertiseDetails.map((item) => (
@@ -330,7 +330,7 @@ const Portfolio = () => {
               </h3>
               <div className="space-y-8 border-l border-slate-700 ml-2 pl-6 relative">
                 {[
-                  { title: "MS in Computer Science", school: "University of Southern Mississippi", date: "2024–Present" },
+                  { title: "MS in Computer Science", school: "University of Southern Mississippi", date: "Jan 2024 – Dec 2025" },
                   { title: "B.Tech in Information Technology", school: "Lakireddy Bali Reddy College of Eng.", date: "2019–2023" },
                   { title: "Intermediate", school: "Sri Chaitanya Junior College", date: "2017–2019" }
                 ].map((edu, idx) => (
