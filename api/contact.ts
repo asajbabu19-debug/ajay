@@ -35,9 +35,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
     const mailOptions = {
       from: `"${name}" <${process.env.SMTP_USER}>`,
-      to: process.env.CONTACT_EMAIL || "asajaybabu05@gmail.com",
-      subject: `New Contact Form Submission from ${name}`,
-      text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+      to: process.env.CONTACT_EMAIL || process.env.SMTP_USER || "asajbabu19@gmail.com",
+      subject: `Portfolio: New Message from ${name}`,
+      text: `You received a new message from your portfolio contact form.\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
       replyTo: email,
     };
 
